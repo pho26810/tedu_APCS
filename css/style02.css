@@ -390,8 +390,6 @@ hr {
     font-size: 2.8vw;
   }
   .fixed_signup_btn {
-    transform: scale(0.8);
-    left: -80px;
-    bottom: 15%;
+    display: none;
   }
 }
