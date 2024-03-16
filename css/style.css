@@ -1067,4 +1067,7 @@ ul {
   .class_price {
     font-size: 30px;
   }
+  .fixed_signup_btn {
+    display: none;
+  }
 }
