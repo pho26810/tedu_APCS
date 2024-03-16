@@ -1,0 +1,397 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+  font-family: Arial, "Noto Sans TC", "微軟正黑體";
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  color: #333;
+  font-size: 20px !important;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  color: #222;
+}
+
+h4 {
+  font-size: 34px;
+  color: #222;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+.logo {
+  overflow: hidden;
+}
+
+.logo .tedu {
+  display: inline-block;
+  float: left;
+  margin: 2px 0 0 15px;
+  width: 120px;
+  height: 48px;
+  text-indent: -9999px;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/logo.png);
+}
+
+.logo .headertext {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: left;
+  float: left;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+.logo .headerlink {
+  color: #000;
+  list-style: none;
+  padding: 0;
+  margin: 0 15px 0 0;
+  float: right;
+}
+
+.logo .headerlink li {
+  display: inline-block;
+  padding: 0 0 0 60px;
+}
+
+.logo .headerlink li a {
+  display: inline-block;
+  line-height: 53px;
+  color: #0d3b72;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.logo .headerlink li a:hover {
+  color: #333;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+hr {
+  width: 80%;
+  border-top: 1px solid #0d3b72;
+}
+
+/*======= top_banner ======= */
+
+.top_banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: url("../img/bg_top.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.top_banner .wrapper {
+  width: 645px;
+  position: absolute;
+  bottom: 5%;
+  right: 12%;
+  transform: scale(0.8);
+}
+
+.sign_up {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 4px 28px 2px;
+  background-color: #222;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  letter-spacing: 4px;
+}
+
+.sign_up:hover {
+  background-color: #0d3b72;
+}
+
+.prebox {
+  width: 100%;
+  height: 10px;
+  background-color: #0d3b72;
+}
+
+.main_content {
+  background-image: url(../img/bg_index02.jpg);
+  width: 100%;
+  height: 3150px;
+}
+
+.top_banner h1 {
+  animation-duration: 1.2s;
+}
+
+/*======= sec7開始 ======= */
+
+.sec7 .part01 {
+  padding-top: 80px;
+}
+
+.sec7 .pic01 {
+  background-image: url(../img/img_sec7.png);
+  width: 840px;
+  height: 784px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+/*======= sec8開始 ======= */
+
+.sec8 .part01 {
+  margin-top: 100px;
+}
+
+.sec8 .pic01 {
+  background-image: url(../img/img_sec8.png);
+  width: 999px;
+  height: 699px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+/*======= sec9開始 ======= */
+
+.sec9 .part01 {
+  margin-top: 100px;
+}
+
+.sec9 .pic01 {
+  background-image: url(../img/img_sec9.png);
+  width: 1110px;
+  height: 809px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+/*======= sec10開始 ======= */
+
+.sec10 .wrapper {
+  width: 100%;
+}
+
+.sec10 h4 {
+  margin-top: 100px;
+}
+
+.sec10 .wrapper ul {
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.sec10 li {
+  margin: 0;
+  font-size: 22px;
+  color: #0d3b72;
+  line-height: 2;
+  text-align: left;
+}
+
+.sec10 span,
+.sec10 i {
+  display: inline-block;
+  height: 47px;
+  vertical-align: middle;
+}
+
+.sec10 strong {
+  color: #e50612;
+  margin-right: 4px;
+  font-weight: 600;
+}
+
+/*======= sec11開始 ======= */
+
+.sec11 .wrapper {
+  height: 336px;
+  background-color: #0a2d51;
+}
+
+.sec11 .top {
+  height: 3px;
+  background: #ffb11b;
+}
+
+.sec11 .bottom {
+  margin-top: 115px;
+}
+
+.sec11 p {
+  font-size: 20px;
+  color: #fff;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.fixed_signup_btn {
+  position: fixed;
+  left: -60px;
+  bottom: 17%;
+  width: 222px;
+  height: 88px;
+  z-index: 999;
+  transition: all 0.5s ease;
+}
+
+.fixed_signup_btn:hover {
+  left: -40px;
+}
+
+.fixed_signup_btn .cursor {
+  position: absolute;
+  right: -6px;
+  bottom: -19px;
+  width: 51px;
+  height: 54px;
+  z-index: 1000;
+  transition: all 0.5s ease;
+  animation: scale 1.3s infinite ease-in-out;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*======= 手機版開始 ======= */
+
+@media (max-width: 767px) {
+  .logo {
+    width: 100%;
+    height: 52px;
+    background-color: #fff;
+  }
+  .logo .headertext {
+    display: none;
+  }
+  .logo .headerlink {
+    display: none;
+  }
+  .logo .tedu {
+    float: none;
+    margin: 0;
+    transform: scale(0.9);
+  }
+  .top_banner {
+    background-image: url(../img/bg_top_m.jpg);
+    height: 410px;
+  }
+  .top_banner .wrapper {
+    margin: 0 auto;
+    position: initial;
+    width: 90%;
+    transform: scale(1);
+  }
+  .top_banner .wrapper img {
+    width: 100%;
+  }
+  .sign_up {
+    transform: scale(0.8);
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .main_content .wrapper {
+    width: 100%;
+  }
+  .main_content {
+    background-image: url(../img/bg_index02_m.jpg);
+    height: 3800px;
+  }
+  .sec7 .pic01 {
+    background-image: url(../img/img_sec7_m.png);
+    width: 320px;
+    height: 1152px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+  .sec8 .pic01 {
+    background-image: url(../img/img_sec8_m.png);
+    width: 320px;
+    height: 825px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+  .sec9 .pic01 {
+    background-image: url(../img/img_sec9_m.png);
+    width: 320px;
+    height: 1010px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+  /*.sec10 .wrapper {
+        width: 100%;
+    }
+    .sec10 h4 {
+        margin-top: -30px;
+        font-size: 5.5vw;
+    }
+    .sec10 .wrapper ul {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        padding: 0 10px;
+    }
+    .sec10 img {
+        transform: scale(0.7);
+    }
+    .sec10 li {
+        font-size: 3.3vw;
+    }
+    .sec10 .part02 {
+        margin-top: 40px;
+    }
+    .sec10 .part01 h4 {
+        margin-top: 100px;
+    }*/
+  .sec11 .wrapper {
+    height: 160px;
+    background-color: #0a2d51;
+  }
+  .sec11 .bottom {
+    margin-top: 40px;
+  }
+  .sec11 p {
+    font-size: 2.8vw;
+  }
+  .fixed_signup_btn {
+    transform: scale(0.8);
+    left: -80px;
+    bottom: 15%;
+  }
+}
