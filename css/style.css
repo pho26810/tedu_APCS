@@ -773,7 +773,7 @@ ul {
   .top_banner .wrapper {
     width: 645px;
     position: absolute;
-    bottom: 4%;
+    bottom: 1%;
     right: 3%;
     transform: scale(0.7);
   }
