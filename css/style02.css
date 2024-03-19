@@ -287,6 +287,22 @@ hr {
   }
 }
 
+/*======= 筆電開始 ======= */
+
+@media (max-width: 1450px) {
+  .top_banner .wrapper {
+    width: 645px;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    transform: scale(0.7);
+  }
+  .sec2 .part04 .class_info,
+  .sec2 .part05 .class_info {
+    width: 95%;
+  }
+}
+
 /*======= 手機版開始 ======= */
 
 @media (max-width: 767px) {

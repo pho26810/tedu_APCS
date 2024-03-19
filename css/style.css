@@ -12,14 +12,8 @@ body {
   text-align: center;
 }
 
-h1 {
-}
-
 h2 {
   color: #222;
-}
-
-h3 {
 }
 
 h4 {
@@ -775,17 +769,21 @@ ul {
 
 /*======= 筆電開始 ======= */
 
-@media (max-width: 1366px) {
+@media (max-width: 1450px) {
   .top_banner .wrapper {
     width: 645px;
     position: absolute;
-    bottom: 2%;
-    right: 7%;
+    bottom: 4%;
+    right: 3%;
     transform: scale(0.7);
   }
   .sec2 .part04 .class_info,
   .sec2 .part05 .class_info {
     width: 95%;
+  }
+
+  .sec5 .circle {
+    width: 75%;
   }
 }
 
