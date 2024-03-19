@@ -769,7 +769,7 @@ ul {
 
 /*======= 筆電開始 ======= */
 
-@media (max-width: 1450px) {
+@media (min-width: 1366px) and (max-width: 1450px) {
   .top_banner .wrapper {
     width: 645px;
     position: absolute;
